@@ -1,0 +1,42 @@
+.header {
+    .nav {
+        height: 60px;
+        display: flex;
+        align-items: center;
+    justify-content: space-between;
+    // border: 1px solid red;
+    img {
+        max-width: 236px;
+    }
+    .nav__collection {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        list-style: none;
+        .nav__item {
+      &:hover {
+        color: rgb(26, 202, 26);
+    }
+    }
+}
+.nav__select {
+  display: none;
+}
+  }
+}
+@media (max-width:700px) {
+  .header{
+      .nav{
+          .nav__select {
+           display: block;
+          }
+        .nav__collection{
+            display: none;
+            select{
+                border: none;
+                color: rebeccapurple;
+            }
+        }
+    }
+}
+}

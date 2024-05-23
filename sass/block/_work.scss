@@ -1,0 +1,132 @@
+.work__wrap{
+    margin-top: 50px;
+    max-width: 1045;
+    // border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    gap: 300px;
+    padding: 0 100px;
+    .work__body{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 90px;
+        .work__card{
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            gap: 40px;
+            b{
+                font-size: 60px;
+                color: goldenrod;
+            }
+            strong{
+                font-size: 42px;
+            }
+        }
+
+    }
+    
+}
+button {
+      width: 217px;
+      height: 50px;
+      background: dodgerblue;
+      color: whitesmoke;
+      border-radius: 25px;
+      border: none;
+      margin-top: 25px;
+      &:hover{
+          transform: scale(1.1);
+        cursor: pointer;
+        color: rebeccapurple;
+      }
+}
+    
+@media (max-width:950px) {
+  .work__wrap{
+    margin-top: 50px;
+    max-width: 1045;
+    display: flex;
+    flex-direction: column;
+    gap: 300px;
+    padding: 0 100px;
+    .work__body{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+        .work__card{
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            gap: 40px;
+            b{
+                font-size: 60px;
+                color: goldenrod;
+            }
+            strong{
+                font-size: 28px;
+            }
+        }
+
+    }
+    
+}
+}    
+@media (max-width:755px) {
+    .work__wrap{
+        margin-top: 50px;
+    max-width: 1045;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+    padding: 0 50px;
+    .work__body{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 30px;
+        flex-direction: column;
+        
+        .work__card{
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            gap: 40px;
+            align-items: center;
+            justify-content: center;
+            b{
+                font-size: 60px;
+                color: goldenrod;
+            }
+            strong{
+                font-size: 28px;
+
+            }
+            p{
+            text-align: center;
+            }
+        }
+
+    }
+    
+}
+button {
+    width: 217px;
+    height: 50px;
+    background: dodgerblue;
+    color: whitesmoke;
+    border-radius: 25px;
+    border: none;
+    margin-top: 25px;
+    margin: auto;
+    color: rebeccapurple;
+      &:hover{
+          transform: scale(1.1);
+        cursor: pointer;
+      }
+      
+}
+}

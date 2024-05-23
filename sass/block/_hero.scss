@@ -1,0 +1,68 @@
+.hero__warp {
+  width: 100%;
+  background: url(../../assets/img/Bitmap.png) no-repeat right ;
+  padding: 117px 85px;
+  .hero__text {
+    max-width: 493px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+    b {
+      font-size: 72px;
+      color: white;
+    }
+    p {
+      font-size: 16px;
+      color: aliceblue;
+    }
+    button {
+      width: 217px;
+      height: 50px;
+      background: dodgerblue;
+      color: whitesmoke;
+      border-radius: 25px;
+      border: none;
+      &:hover{
+          transform: scale(1.1);
+        cursor: pointer;
+        color: rebeccapurple;
+      }
+    }
+  }
+}
+@media (max-width:600px) {
+  .hero__warp {
+  width: 100%;
+  background: url(../../assets/img/Bitmap.png) no-repeat right ;
+  padding: 117px 10px;
+  .hero__text {
+    max-width: 493px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 32px;
+    b {
+      font-size: 40px;
+      color: white;
+    }
+    p {
+      font-size: 16px;
+      color: aliceblue;
+    }
+    button {
+      width: 217px;
+      height: 50px;
+      background: dodgerblue;
+      color: whitesmoke;
+      border-radius: 25px;
+      border: none;
+      &:hover{
+          transform: scale(1.1);
+        cursor: pointer;
+        color: rebeccapurple;
+      }
+    }
+  }
+}
+}

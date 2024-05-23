@@ -1,0 +1,228 @@
+.black {
+  width: 100%;
+  background: black;
+  .choose__text {
+    width: 100%;
+    min-height: 577px;
+    // background: rgb(224, 166, 166);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-direction: column;
+
+    b {
+      font-size: 48px;
+      color: white;
+      margin-top: -250px;
+    }
+    p {
+      font-size: 16px;
+      color: white;
+      margin: 0 200px;
+      text-align: center;
+    }
+  }
+}
+.choose__body {
+  display: flex;
+  flex-direction: column;
+  .choose__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -200px;
+    gap: 10px;
+    .choose__card {
+      background: rgb(10, 117, 99);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding-top: 150px;
+      border-radius: 20px;
+      img {
+        height: 75px;
+      }
+      .choose__desc {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 50px;
+        color: white;
+        line-height: 1.5;
+
+        b {
+          font-size: 24px;
+        }
+        p {
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 925px) {
+  .black {
+    width: 100%;
+    background: black;
+    .choose__text {
+      width: 100%;
+      min-height: 577px;
+      // background: rgb(224, 166, 166);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+      flex-direction: column;
+
+      b {
+        font-size: 48px;
+        color: white;
+        margin-top: -250px;
+      }
+      p {
+        font-size: 16px;
+        color: white;
+        margin: 0 200px;
+        text-align: center;
+      }
+    }
+  }
+  .choose__body {
+    .choose__box {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      width: 100%;
+
+      .choose__card {
+        background: rgb(10, 117, 99);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        width: 100%;
+        padding: 0 15px;
+
+        img {
+          height: 75px;
+        }
+        .choose__desc {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          padding: 50px;
+          color: white;
+          line-height: 1.5;
+
+          b {
+            font-size: 24px;
+          }
+          p {
+            text-align: center;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 650px) {
+  .black {
+    width: 100%;
+    background: black;
+    .choose__text {
+      width: 100%;
+      min-height: 577px;
+      // background: rgb(224, 166, 166);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+      flex-direction: column;
+
+      b {
+        font-size: 32px;
+        color: white;
+        margin-top: -250px;
+      }
+      p {
+        font-size: 16px;
+        color: white;
+        margin: 0 100px;
+        text-align: center;
+      }
+    }
+  }
+}
+@media (max-width: 500px) {
+  .black {
+    width: 100%;
+    background: black;
+    padding-bottom: 300px;
+    .choose__text {
+      width: 100%;
+      min-height: 577px;
+      // background: rgb(224, 166, 166);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+      flex-direction: column;
+
+      b {
+        font-size: 32px;
+        color: white;
+        margin-top: -500px;
+        
+      }
+      p {
+        display: none;
+      }
+    }
+  }
+  .choose__body {
+  display: flex;
+  .choose__box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: -600px;
+    flex-direction: column;
+    gap: 10px;
+    .choose__card {
+      background: rgb(10, 117, 99);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      padding-top: 150px;
+      border-radius: 20px;
+      img {
+        height: 75px;
+      }
+      .choose__desc {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 50px;
+        color: white;
+        line-height: 1.5;
+
+        b {
+          font-size: 24px;
+        }
+        p {
+          text-align: center;
+        }
+      }
+    }
+  }
+}
+}
+
